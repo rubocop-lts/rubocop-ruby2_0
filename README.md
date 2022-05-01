@@ -49,11 +49,21 @@ All releases of this gem are stable releases. The first version is `1.0.0`.
 
 ## Installation
 
-Install the gem and add to the application's Gemfile by executing:
+Without bundler execute:
 
-    $ bundle add rubocop-ruby2_0 -r false
+    $ gem install 
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'rubocop-ruby2_0', '~> 1.0', require: false
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
 
     $ gem install rubocop-ruby2_0
 
@@ -132,7 +142,7 @@ the [Pessimistic Version Constraint][pvc] with two digits of precision.
 For example:
 
 ```ruby
-spec.add_dependency "rubocop-ruby2_0", "~> 0.1"
+spec.add_dependency "rubocop-ruby2_0", "~> 1.0"
 ```
 
 [copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
