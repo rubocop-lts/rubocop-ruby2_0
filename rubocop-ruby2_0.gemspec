@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "lib/rubocop/ruby2_0/version"
+# NOTE: Using __FILE__ because require_relative was added in Ruby 2.1
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require "rubocop/ruby2_0/version"
 
 Gem::Specification.new do |spec|
   spec.name = "rubocop-ruby2_0"
