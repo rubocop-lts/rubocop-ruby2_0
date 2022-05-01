@@ -39,7 +39,7 @@ jobs:
         bundler:
           - none
         ruby:
-          - "2.1"
+          - "2.0"
 
     runs-on: ubuntu-latest
     continue-on-error: ${{ matrix.experimental || endsWith(matrix.ruby, 'head') }}
