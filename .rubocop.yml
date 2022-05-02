@@ -11,5 +11,5 @@ Style/StringLiteralsInInterpolation:
   Enabled: true
   EnforcedStyle: double_quotes
 
-Layout/LineLength:
+Metrics/LineLength:
   Max: 120
