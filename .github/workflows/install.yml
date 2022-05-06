@@ -33,7 +33,7 @@ jobs:
         experimental: [false]
         gemfile:
           - ruby
-          - rails
+          - rails7
         rubygems:
           - latest
         bundler:
