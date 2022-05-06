@@ -39,17 +39,17 @@ The purpose of this gem is to constrain the `rubocop` dependency of a project in
 a [SemVer compliant](https://semver.org/) (Semantic Versioning) way that aligns with the the desired minimum
 compatible/supported Ruby version.
 
-Adding this gem will facilitate the best practice of adding a `~> ` version constrained `rubocop` dependency, while
-minimizing the risk of a rubocop minor / patch upgrade breaking the build. See the
-official [compatibility matrix](https://github.com/rubocop/rubocop/blob/master/docs/modules/ROOT/pages/compatibility.adoc#support-matrix) (Rubocop documentation)
-
 ## Ruby Version Support Matrix
 
-`rubocop-ruby1_9` will install on any version of Ruby >= 1.9, but can be used to analyze Ruby 1.8.7 code.
+Adding this gem will facilitate the best practice of adding a `~> ` version constrained `rubocop` dependency, while
+minimizing the risk of a rubocop minor / patch upgrade breaking the build. See the
+official [compatibility matrix][rubocop-matrix] for `rubocop`.
 
-🧊 - Install on Ruby <version>
-🏃‍ - Execute on Ruby <version>
-🛠 - Lint code with Ruby <version> syntax target
+`rubocop-ruby2_0` (this gem) will install on any version of Ruby >= 2.0, and can be used to analyze code intended to support Ruby >= 2.0.
+
+* 🧊 - Install on Ruby `<version>`
+* 🏃‍ - Execute on Ruby `<version>`
+* 🛠 - Lint code with Ruby `<version>` syntax target
 
 | gem                     | 1.8.7         | 1.9.3     | 2.0       | 2.1       | 2.2       | 2.3       | 2.4       | 2.5       | 2.6       | 2.7       | 3.0       | 3.1       |
 |-------------------------|---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -77,6 +77,7 @@ official [compatibility matrix](https://github.com/rubocop/rubocop/blob/master/d
 [rr30]: https://github.com/rubocop-semver/rubocop-ruby3_0
 [rr31]: https://github.com/rubocop-semver/rubocop-ruby3_1
 [what1_8]: https://github.com/rubocop-semver/rubocop-ruby1_9#what-about-ruby-18
+[rubocop-matrix]: https://github.com/rubocop/rubocop/blob/master/docs/modules/ROOT/pages/compatibility.adoc#support-matrix
 
 ## Stable
 
