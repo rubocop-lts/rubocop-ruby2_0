@@ -1,4 +1,4 @@
-name: Current Ruby Support
+name: Ruby HEAD Support
 
 on:
   push:
