@@ -137,7 +137,7 @@ Allowing this gem to manage the target ruby version means you can switch to a di
 
 ## NewCops: enable
 
-Commented out!  Setting does not exist in the very old version of rubocop that works with Ruby 1.9.
+Commented out!  Setting does not exist in very old versions of rubocop that works with Ruby < 2.4.
 
 If you want to use this you'll have to upgrade to Ruby >= 2.4 and use the appropriate sibling gem, e.g. [`rubocop-ruby2_4`][2-4].
 
@@ -176,7 +176,7 @@ the [MIT License][license] [![License: MIT](https://img.shields.io/badge/License
 See [LICENSE][license] for the official [Copyright Notice][copyright-notice-explainer].
 
 <details>
-  <summary>Project Logos (rubocop-ruby3_1)</summary>
+  <summary>Project Logos (rubocop-ruby2_0)</summary>
 
 See [docs/images/logo/README.txt][project-logos]
 </details>
@@ -189,7 +189,7 @@ Source: [Unsplash][org-logo-source]
 License: [Unsplash License][org-logo-license]
 </details>
 
-[project-logos]: https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/docs/images/logo/README.txt
+[project-logos]: https://github.com/rubocop-lts/rubocop-ruby2_0/blob/main/docs/images/logo/README.txt
 [org-logo-author]: https://unsplash.com/@yusufevli
 [org-logo-source]: https://unsplash.com/photos/yaSLNLtKRIU
 [org-logo-license]: https://unsplash.com/license
