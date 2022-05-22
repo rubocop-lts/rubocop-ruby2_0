@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-## [1.0.4] 2022-05-06
+## [1.0.4] 2022-05-22
 ### Added
 * Better documentation
 * Rubocop => RuboCop typo repair
