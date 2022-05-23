@@ -131,11 +131,11 @@ Style/BracesAroundHashParameters:
 
 Let's talk about these settings.
 
-## TargetRubyVersion
+### TargetRubyVersion
 
 Allowing this gem to manage the target ruby version means you can switch to a different gem within the family when you upgrade to the next version of Ruby, and have nothing else to change.  A single line in the `Gemfile`, and you are done.
 
-## NewCops: enable
+### NewCops: enable
 
 Commented out!  Setting does not exist in very old versions of rubocop that work with Ruby < 2.4.
 
@@ -143,7 +143,7 @@ If you want to use this you'll have to upgrade to Ruby >= 2.4 and use the approp
 
 [2-4]: https://github.com/rubocop-lts/rubocop-ruby2_4
 
-## Style/BracesAroundHashParameters
+### Style/BracesAroundHashParameters
 
 In an effort to help users of this gem prepare their code for more modern Rubies it has been enabled and configured with `coontext_dependent` as the closest parallel to what will work with Ruby 2.7+, and also retain compatibility with old Ruby.
 
