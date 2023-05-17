@@ -18,7 +18,7 @@
 
 ---
 
-NOTE: You might be interested in [`rubocop-lts`][rrlts] which sits as a higher level than this gem, and can keep pace with whatever version of Ruby you happen to be on.
+NOTE: You might be interested in [`rubocop-lts`][rlts] which sits as a higher level than this gem, and can keep pace with whatever version of Ruby you happen to be on.
 
 | Gem Name                      | Version                             | Downloads                                                            | CI                                                                    | Activity                                                                                                                                              |
 |-------------------------------|-------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
