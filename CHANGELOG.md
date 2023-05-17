@@ -33,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - version_gem
 ### Removed
 - rubocop-ruby1_8.yml (replaced with a wholly separate gem [rubocop-ruby1_8](https://gitlab.com/rubocop-lts/rubocop-ruby1_8)
+- Support for Ruby <= 2.6. Minimum Ruby Version is now 2.7
 
 ## [1.0.5] 2022-05-22
 ### Added
