@@ -13,7 +13,7 @@ module Rubocop
   # Namespace of this library
   module Ruby20
     module_function def install_tasks
-      load "rubocop/ruby2_0/tasks.rb"
+      load("rubocop/ruby2_0/tasks.rb")
     end
   end
 end
