@@ -24,9 +24,9 @@ end
 require "rubygems"
 require "bundler/setup"
 
-require 'pry-suite'
+require "pry-suite"
 
-$0 = 'pry'
+$0 = "pry"
 
 # Process command line options and run Pry
 opts = Pry::CLI.parse_options
